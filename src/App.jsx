@@ -19,7 +19,7 @@ class App extends React.Component {
     
     
 
-    const URL = 'http://api.weatherstack.com/current?access_key=b301c82e0943c4b308df9f986fd71d95&query=New%20York';
+    const URL = 'http://api.weatherstack.com/.netlify/functions/weather';
     const {eventEmitter} = this.props;
     
     axios
